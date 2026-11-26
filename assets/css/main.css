@@ -2070,3 +2070,20 @@ a.read-more:hover {
     max-height: 38vh;
   }
 }
+
+/* = = = = = = = = = = Top Logo Image = = = = = = = = = = */
+.main-header .logo img#logo {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 112px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-header .logo img#logo {
+    max-height: 72px;
+  }
+}
