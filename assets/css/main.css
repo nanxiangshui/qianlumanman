@@ -2071,19 +2071,47 @@ a.read-more:hover {
   }
 }
 
-/* = = = = = = = = = = Top Logo Image = = = = = = = = = = */
-.main-header .logo img#logo {
-  width: auto;
+/* = = = = = = = = = = Top Banner = = = = = = = = = = */
+.main-header {
+  padding-top: 0;
+}
+
+.top-banner {
+  width: 100%;
+  margin: 0 0 14px;
+  background-color: #0b1a2b;
+  line-height: 0;
+}
+
+.top-banner .logo {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.top-banner .logo a {
+  display: block;
+}
+
+.top-banner .logo img#logo {
+  width: 100%;
   height: auto;
-  max-width: 100%;
-  max-height: 150px;
-  border-radius: 5px;
+  max-height: 52vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   display: block;
   margin: 0 auto;
+  border-radius: 0;
 }
 
 @media only screen and (max-width: 768px) {
-  .main-header .logo img#logo {
-    max-height: 90px;
+  .top-banner .logo img#logo {
+    max-height: 38vh;
   }
+}
+
+.footer-star {
+  border-radius: 3px;
 }
