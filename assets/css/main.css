@@ -2067,7 +2067,7 @@ a.read-more:hover {
 @media (max-width: 768px) {
   .site-hero {
     aspect-ratio: 2 / 1;
-    max-height: 38vh;
+    max-height: 19vh;
   }
 }
 
@@ -2096,7 +2096,7 @@ a.read-more:hover {
 .top-banner .logo img#logo {
   width: 100%;
   height: auto;
-  max-height: 52vh;
+  max-height: 26vh;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
