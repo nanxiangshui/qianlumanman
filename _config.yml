@@ -1,5 +1,5 @@
 ﻿# Site settings
-title: 千路漫漫
+title: 钱璐漫漫
 description: '记录与思考'
 permalink: ':title:output_ext'
 baseurl: "/qianlumanman" # the subpath of your site, e.g. /blog
@@ -24,8 +24,8 @@ logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: 钱德恒 # add your name
-author-pic: myfamily.jpg
+author: 钱璐漫漫 # add your name
+author-pic: guanyu.jpg
 about-author: 想象另一种可能
 
 # Contact links
