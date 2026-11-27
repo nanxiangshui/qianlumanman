@@ -2115,3 +2115,12 @@ a.read-more:hover {
 .footer-star {
   border-radius: 3px;
 }
+
+/* 文章页不显示顶部通栏 */
+.main-header.post-header {
+  padding-top: 15px;
+}
+
+.main-header.post-header .top-banner {
+  display: none;
+}
